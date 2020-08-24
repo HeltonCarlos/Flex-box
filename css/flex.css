@@ -18,7 +18,8 @@ header ul li a:hover{border-bottom: 2px solid #f3d022;}
 
 @media(max-width:700px){
     .header-container{flex-direction: column;}
-    header img{margin-bottom: 30px;}}
+    header img{margin-bottom: 30px;}
+    header nav {width: 80%;margin: auto;}}
 
 /*main*/
 .hero{background-image: url(../img/HERO.png);background-size: cover;min-height: 80vh;}
@@ -76,9 +77,9 @@ input[type='submit']:hover{background-color: #C9A911;transition: 0.5s;}
 
 @media(max-width:700px){
     .ps-container{flex-flow: column;margin: 0 auto;}
-    .passeios{width: 80%;}
-    .quarto{width: 80%;}
-    .gastronomia{width: 80%;}}
+    .passeios{width: 80%;margin: auto;}
+    .quarto{width: 80%; margin: auto;}
+    .gastronomia{width: 80%;margin: auto;}}
 
 /*seção01*/
 .secao01 {width: 100%;margin-top:50px;}
