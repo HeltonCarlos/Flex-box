@@ -190,7 +190,7 @@ input[type='submit']:hover{background-color: #C9A911;transition: 0.5s;}
 #sect04 .sect04-container .formulario label{padding-bottom: 5px;font-size: 20px;text-align: left;padding-left: 20px;}
 
 #sect04 .sect04-container .formulario input{padding: 5px; border: 2px solid #100e2f; 
-    font-size: 20px;margin-bottom: 10px;width: 420px;}
+    font-size: 20px;margin-bottom: 10px;width: 420px}
 
 #sect04  .sect04-container .formulario #text{padding: 5px; border: 2px solid #100e2f; 
     font-size: 20px;padding-bottom: 100px;width: 420px;}
@@ -214,6 +214,8 @@ border: 2px solid #100e2f;
         #sect04 .sect04-container .formulario input{width: 80%;margin: auto;}
         #sect04 .sect04-container .container-form{flex-direction: column;}
         #sect04 .sect04-container iframe{max-width: 100%;}
+        #sect04 .sect04-container .formulario input{width: 70%;}
+        #sect04  .sect04-container .formulario #text{width: 70%;}
             }
 
 
