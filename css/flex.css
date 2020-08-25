@@ -154,14 +154,15 @@ input[type='submit']:hover{background-color: #C9A911;transition: 0.5s;}
 
 .secao03-container form{text-align: center;padding-bottom: 30px;}
 
-.secao03-container input[type="email"]{width:500px;padding-left: 20px;}
+.secao03-container input[type="email"]{width:50%;padding-left: 20px;}
 
 .secao03-container input[type="button"]{background-color:#1286C9;color: #fff;font-weight: bold;border: none;margin-bottom: 20px}
 
 .secao03-container input[type="button"]:hover{background-color:#085988;transition: 0.5s;}
 
 @media(max-width:700px){
-    .secao03-container input{width: 80%;}
+    .secao03-container form input[type="email"]{width: 80%;}
+    .secao03-container form input{width: 80%;}
 }
 /*seção04*/
 
@@ -195,7 +196,7 @@ input[type='submit']:hover{background-color: #C9A911;transition: 0.5s;}
 #sect04  .sect04-container .formulario #text{padding: 5px; border: 2px solid #100e2f; 
     font-size: 20px;padding-bottom: 100px;width: 420px;}
 
-    iframe{margin-bottom: 50px;}
+iframe{margin-bottom: 50px;}
 
 #sect04 .sect04-container .formulario #btn3{display: inline-block;
 border: 2px solid #100e2f;
@@ -210,13 +211,12 @@ border: 2px solid #100e2f;
 #sect04 .sect04-container .formulario #btn3:hover{background-color:#085988; 
   transition: 0.5s;}
 
-      @media(max-width:720px){
+@media(max-width:720px){
         #sect04 .sect04-container .formulario input{width: 80%;margin: auto;}
         #sect04 .sect04-container .container-form{flex-direction: column;}
         #sect04 .sect04-container iframe{max-width: 100%;}
         #sect04 .sect04-container .formulario input{width: 70%;}
-        #sect04  .sect04-container .formulario #text{width: 70%;}
-            }
+        #sect04  .sect04-container .formulario #text{width: 70%;}}
 
 
       /*footer*/
