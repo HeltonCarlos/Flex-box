@@ -21,7 +21,8 @@ header ul li a:hover{border-bottom: 2px solid #f3d022;}
 @media(max-width:700px){
     .header-container{flex-direction: column;}
     header img{margin-bottom: 30px;}
-    header nav {margin: auto;}}
+    header nav {margin: auto;}
+    header ul li a{color: #FFF;margin-right: 02px;}}
 
 /*main*/
 .hero{background-image: url(../img/HERO.png);background-size: cover;min-height: 80vh;}
