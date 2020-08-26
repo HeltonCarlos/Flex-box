@@ -141,7 +141,7 @@ input[type='submit']:hover{background-color: #C9A911;transition: 0.5s;}
 
 @media(max-width:700px){
     .secao02-container{flex-flow: column;}
-    .secao02{height: 100%;}
+    .secao02{height: 1550px;}
     .secao02-container img{margin-top: 10px;width: 80%;}
     .secao02-container a{margin-top: 10px;}}
 
