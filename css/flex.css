@@ -22,7 +22,7 @@ header ul li a:hover{border-bottom: 2px solid #f3d022;}
     .header-container{flex-direction: column;}
     header img{margin-bottom: 30px;}
     header nav {margin: auto;}
-    header ul li a{color: #FFF;margin-right: 20px;}}
+    header ul li a{color: #FFF;padding: 5px;}}
 
 /*main*/
 .hero{background-image: url(../img/HERO.png);background-size: cover;min-height: 80vh;}
@@ -141,7 +141,7 @@ input[type='submit']:hover{background-color: #C9A911;transition: 0.5s;}
 
 @media(max-width:700px){
     .secao02-container{flex-flow: column;}
-    .secao02{height: 1270px;}
+    .secao02{height: 1190px;}
     .secao02-container img{margin-top: 10px;width: 80%;}
     .secao02-container a{margin-top: 10px;}}
 
