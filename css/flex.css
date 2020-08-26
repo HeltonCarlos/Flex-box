@@ -20,7 +20,8 @@ header ul li a:hover{border-bottom: 2px solid #f3d022;}
 
 @media(max-width:700px){
     .header-container{flex-direction: column;}
-    header img{margin-bottom: 30px;}
+    header img{margin-bottom: 20px;margin-top: 20px;}
+    header nav{display: none;}
    }
 
 /*main*/
