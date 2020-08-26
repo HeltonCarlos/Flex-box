@@ -22,7 +22,7 @@ header ul li a:hover{border-bottom: 2px solid #f3d022;}
     .header-container{flex-direction: column;}
     header img{margin-bottom: 30px;}
     header nav {margin: auto;}
-    header ul li a{color: #FFF;padding: 5px;margin-right: none;}}
+    header ul li a{color: #FFF;padding: 5px;margin-right: 50px;}}
 
 /*main*/
 .hero{background-image: url(../img/HERO.png);background-size: cover;min-height: 80vh;}
