@@ -10,7 +10,7 @@ header{width:100%;background-color: #100e2f;border: none;}
 
 header img{width: 200px;}
 
-header nav ul{display: flex;}
+header nav ul{display: flex;justify-content: center;}
 
 header ul li{list-style: none;}
 
@@ -22,7 +22,7 @@ header ul li a:hover{border-bottom: 2px solid #f3d022;}
     .header-container{flex-direction: column;}
     header img{margin-bottom: 30px;}
     header nav {margin: auto;}
-    header ul li a{color: #FFF;margin-right: 02px;}}
+    header ul li a{color: #FFF;margin-right: 20px;}}
 
 /*main*/
 .hero{background-image: url(../img/HERO.png);background-size: cover;min-height: 80vh;}
